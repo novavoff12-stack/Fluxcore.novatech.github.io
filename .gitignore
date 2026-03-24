@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/docs
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+pages/api/deploy/webhook.ts
+.automation_env
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Planetary CLRUN
+.planetary
+.cl-run-featureflags
+.planetary-instanceconfig
+.env.example
+
+Frame_5_3.png
+/public/avatars
+/scripts
+
+# build
+deploy.sh
+deploy.sh
